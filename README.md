@@ -55,7 +55,7 @@ f. Where should budget be reallocated for maximum ROI?
    projected to improve overall conversion rate by ~0.3pp
 
 9. Screenshots
-   ![Dashboard Overview](marketing campaign.png)
+   ![Dashboard Overview](MarketingCampaign.png)
 
 10. Author
     Arpit Mishra
