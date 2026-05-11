@@ -1,5 +1,5 @@
 1. Marketing--Campaign-Analytics-Dashboard
-   Analysing campaign performance across channels to drive smarter budget decisions
+   Analysing campaign performance across channels to drive smarter budget decisions.
 
 2. Short Description
    An end-to-end interactive Power BI dashboard built on 7,617 campaign 
@@ -12,13 +12,13 @@
    Power BI Desktop — dashboard development, DAX measures, slicers
    Microsoft Excel — data cleaning and preparation
    SQL — data structuring and filtering
-   DAX — custom KPI measures (Open Rate, CTR, Conversion Rate, Cost per Response)
+   DAX — custom KPI measures (Open Rate, CTR, Conversion Rate, Cost per Response).
 
 4. Data Source
    Simulated CRM-style export based on real-world campaign data structure
    7,617 records | Jan 2024 – Jun 2024
    Fields: Record ID, Date, Channel, Customer Segment, Campaign Name,
-   Messages Sent, Opened, Clicked, Converted, Cost (INR), Revenue (INR)
+   Messages Sent, Opened, Clicked, Converted, Cost (INR), Revenue (INR).
 
 5. Features & Highlights
    4 KPI Cards — Total Messages Sent, Open Rate %, CTR %, Conversion Rate %
@@ -28,7 +28,7 @@
    Cost Efficiency — Cost per Response by Channel (horizontal bar)
    Campaign Table — Full performance summary with revenue per campaign
    Key Insight Box — Recommendation based on data findings
-   3 Interactive Slicers — Filter by Channel, Month, Customer Segment
+   3 Interactive Slicers — Filter by Channel, Month, Customer Segment.
 
 6. Business Problem
    Marketing teams often spend budget across multiple channels without 
@@ -52,12 +52,17 @@ f. Where should budget be reallocated for maximum ROI?
    Social has highest cost per response at ₹7.1 — lowest ROI channel
    High Value segment drives 34% of all conversions despite being smallest group
    Recommendation: Reallocate 20% of SMS budget to Email for Q3
-   projected to improve overall conversion rate by ~0.3pp
+   projected to improve overall conversion rate by ~0.3pp.
+   
+9. New Insight after little deep analysis in SQL
+   SQL analysis reveals New Customer segment has the highest conversion rate (0.66%)
+   despite High Value segment driving 37% of total conversions by volume — suggesting
+   untapped potential in new customer acquisition campaigns. 
 
-9. Screenshots
+11. Screenshots
   ![Dashboard Overview](Marketing%20Campaign.png)
 
-10. Author
+12. Author
     Arpit Mishra
     LinkedIn: linkedin.com/in/arpit-mishra-9417b4190
     GitHub: github.com/arpitaimmishra-rgb
